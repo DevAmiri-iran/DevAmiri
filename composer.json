@@ -24,8 +24,5 @@
     "symfony/translation": "^7.0",
     "symfony/http-foundation": "^7.0",
     "eftec/bladeone": "^4.13"
-  },
-  "extra": {
-    "DevAmiri": true
   }
 }
