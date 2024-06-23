@@ -51,7 +51,7 @@ HTACCESS;
     private static function env(): void
     {
         $url = getCurrentUrl();
-        $key = str_replace('=', '', base64_encode(string_random())) . '5' . str_replace('=', '', base64_encode(string_random()));
+        $key = str_replace('=', '', base64_encode(random())) . '5' . str_replace('=', '', base64_encode(random()));
         self::$item[base_path('.env')] = <<<ENV
 APP_URL=$url
 APP_KEY=$key
