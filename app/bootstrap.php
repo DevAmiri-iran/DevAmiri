@@ -1,8 +1,8 @@
 <?php
 use App\System;
 
-if (file_exists('src/vendor/autoload.php'))
-    require_once 'src/vendor/autoload.php';
+if (file_exists(__DIR__ . '/src/vendor/autoload.php'))
+    require_once __DIR__ . '/src/vendor/autoload.php';
 else
     die('To run this project, Composer must be installed.');
 
